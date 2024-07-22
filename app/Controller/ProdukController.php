@@ -136,9 +136,8 @@
                 $space = "%20";
                 $enter = "%0A";
 
-                // $url = "https://api.whatsapp.com/send?phone=6281359254021&text=";
-                
-                $url = "https://api.whatsapp.com/send?phone=6285730676143&text=";
+                $url = "https://api.whatsapp.com/send?phone=6281359254021&text=";
+                // $url = "https://api.whatsapp.com/send?phone=6285730676143&text=";
 
                 // Info-Salam
                 $infoSalam = "Halo" . $enter . "*KAMI DIGITAL PRINTING SURABAYA*,";
