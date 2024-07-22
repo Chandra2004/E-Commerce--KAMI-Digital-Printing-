@@ -17,7 +17,7 @@ class HomeModel {
         $this->db->query("SELECT * FROM ads_banner");
         $data['ads_banner'] = $this->db->resultSet();
 
-        // Query untuk mengambil data produk
+        // Query untuk mengambil data produk//
         $this->db->query("SELECT * FROM produk ORDER BY RAND()");
         $data['produk'] = $this->db->resultSet();
 
