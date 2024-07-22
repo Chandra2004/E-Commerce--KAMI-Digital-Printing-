@@ -18,7 +18,7 @@ class ProdukModel {
         $data['ads_banner'] = $this->db->resultSet();
 
         // Query untuk mengambil data produk
-        $this->db->query("SELECT * FROM produk ORDER BY timestamp DESC");
+        $this->db->query("SELECT * FROM produk ORDER BY RAND()");
         $data['produk'] = $this->db->resultSet();
 
         return $data;
